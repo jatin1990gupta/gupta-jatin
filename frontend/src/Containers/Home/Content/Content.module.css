@@ -1,0 +1,29 @@
+.Content {
+  width: 70vw;
+  margin-left: 30vw;
+  padding: 0px 25px;
+}
+
+.Division {
+  background-color: black;
+  opacity: 30%;
+  height: 1px;
+  margin: 0px 3px;
+  box-shadow: 1px 1px 2px;
+}
+
+@media screen and (max-width: 700px) {
+  .Content {
+    width: 100vw;
+    margin-left: 0vw;
+    padding: 0px 20px;
+  }
+
+  .Division {
+    background-color: black;
+    opacity: 30%;
+    height: 1px;
+    margin: 0px 3px;
+    box-shadow: 1px 1px 2px;
+  }
+}

@@ -1,0 +1,43 @@
+.Project {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+.Proj {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  transition: opacity 0.5s;
+  opacity: 0;
+  border-radius: 15px;
+}
+.Proj p {
+  font-size: 18px;
+  color: white;
+}
+.Proj a {
+  margin: 5px;
+  font-size: 12px;
+  color: #eb5e28;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+.Proj a:hover {
+  transform: scale(1.2);
+}
+
+.Proj:hover {
+  opacity: 1;
+}
+
+.Disabled {
+  height: inherit;
+  background-color: #999999;
+  border-radius: 15px;
+  cursor: default;
+}

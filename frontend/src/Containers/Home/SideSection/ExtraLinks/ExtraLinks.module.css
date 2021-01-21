@@ -1,0 +1,22 @@
+.ExtraLinks {
+  margin: 7% 18% 7% 10%;
+}
+.ExtraLinks a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 2px;
+  transition: color 0.2s;
+}
+.ExtraLinks a:hover {
+  color: #eb5e28;
+}
+
+@media screen and (max-width: 700px) {
+  .ExtraLinks {
+    margin: 0% 18%;
+  }
+}

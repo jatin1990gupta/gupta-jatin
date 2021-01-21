@@ -1,0 +1,32 @@
+.AboutSection {
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.AboutSection h1 {
+  text-transform: uppercase;
+  margin: 15px 0px;
+  padding-top: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.AboutSection > p > span {
+  font-weight: 600;
+}
+.AboutSection > p {
+  margin: 15px 0px;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  word-spacing: 1.5px;
+}
+
+@media screen and (max-width: 700px) {
+  .AboutSection > p {
+    font-size: 14px;
+    word-spacing: 1px;
+  }
+}

@@ -1,0 +1,12 @@
+.SkillPart {
+  width: fit-content;
+  margin: 5px 30px 25px 0px;
+}
+.SkillPart > h3 {
+  padding: 0px 0px 10px 0px;
+}
+.SkillPart > ul > li {
+  margin: 4px 0px;
+  list-style: none;
+  font-weight: 300;
+}

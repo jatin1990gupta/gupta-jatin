@@ -1,0 +1,30 @@
+.ProfileLinks {
+  margin: 10% 18%;
+}
+.ProfileLinks i {
+  font-size: 1.7em;
+  margin-left: 30px;
+  color: white;
+  transition: color 0.2s, transform 0.2s;
+}
+i:hover {
+  color: #eb5e28;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 700px) {
+  .ProfileLinks {
+    margin: 5% 10% 10% 10%;
+    display: flex;
+    justify-content: center;
+  }
+  .ProfileLinks i {
+    margin: 0px 15px;
+  }
+  i:hover {
+    color: #eb5e28;
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+}

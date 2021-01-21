@@ -1,0 +1,24 @@
+.SkillSection {
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.SkillSection h1 {
+  text-transform: uppercase;
+  margin: 15px 0px;
+  padding-top: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.SkillParts {
+  display: flex;
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .SkillParts {
+    margin-left: 30px;
+  }
+}

@@ -1,0 +1,17 @@
+.SideSection {
+  width: 30vw;
+  height: 100vh;
+  text-align: right;
+  position: fixed;
+  color: white;
+  background-color: #141414;
+}
+
+@media screen and (max-width: 700px) {
+  .SideSection {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    position: relative;
+  }
+}

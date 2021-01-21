@@ -1,0 +1,13 @@
+.ExperienceSection {
+  width: auto;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.ExperienceSection h1 {
+  text-transform: uppercase;
+  margin: 15px 0px;
+  padding-top: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}

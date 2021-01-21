@@ -1,0 +1,61 @@
+.ContactModal {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+.TextBox {
+  height: 30vh;
+  width: 90vh;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+  color: #eb5e28;
+  box-shadow: 2px 2px 5px #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextBox p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.TextBox button {
+  padding: 7px 22px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 13px;
+  color: white;
+  background-color: #eb5e28;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .TextBox {
+    height: auto;
+    width: auto;
+    margin: 40px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .TextBox p {
+    font-size: 1rem;
+    margin: 15px;
+  }
+
+  .TextBox button {
+    padding: 6px 20px;
+    font-size: 0.7rem;
+  }
+}

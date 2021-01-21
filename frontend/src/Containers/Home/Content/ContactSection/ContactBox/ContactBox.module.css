@@ -1,0 +1,86 @@
+.ContactBox {
+  padding: 20px 0px 40px 18px;
+  margin: 30px 45px;
+  border: 2px solid #eb5e28;
+  box-shadow: 2px 2px 6px #eb5e28;
+}
+.ContactBox p > a {
+  color: #eb5e28;
+  text-decoration: none;
+}
+.ContactBox p:nth-child(3) {
+  margin-top: 5px;
+}
+
+.InputBox p {
+  color: #eb5e28;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.InputArea input {
+  width: 350px;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid #797979;
+  outline: none;
+}
+.InputArea input:nth-child(1) {
+  width: 250px;
+}
+
+.MessageArea textarea {
+  padding: 5px;
+  outline: none;
+  margin: 5px 0px 20px 20px;
+  border-radius: 4px;
+  border: 2px solid #797979;
+}
+
+.Button {
+  margin-left: 20px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #eb5e28;
+  border: 2px solid;
+  box-shadow: 0px 0px 2px 1px #eb5e28;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .ContactBox {
+    padding: 20px 0px 40px 15px;
+    margin: 30px 20px;
+  }
+
+  .InputBox p {
+    font-size: 15px;
+    margin: 13px 0px 7px 0px;
+  }
+
+  .InputArea input {
+    width: 13rem;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .InputArea input:nth-child(1) {
+    width: 13rem;
+  }
+
+  .MessageArea textarea {
+    width: 13rem;
+    margin: 2px 5px;
+  }
+
+  .Button {
+    margin-left: 15px;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}

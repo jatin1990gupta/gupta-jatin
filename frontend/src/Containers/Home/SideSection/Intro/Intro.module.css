@@ -1,0 +1,35 @@
+.Intro {
+  margin: 60% 18% 10% 30%;
+}
+.Intro > img {
+  border-radius: 50%;
+  height: 110px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.Intro > h4 {
+  font-weight: 400;
+  font-size: 15px;
+}
+.Intro > h4 > span {
+  color: #eb5e28;
+}
+.Intro > h5 {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 700px) {
+  .Intro {
+    margin: 10% 10% 5% 10%;
+  }
+  .Intro > img {
+    height: 6em;
+  }
+  .Intro > h4 {
+    font-size: 18px;
+  }
+  .Intro > h5 {
+    font-size: 11px;
+  }
+}
