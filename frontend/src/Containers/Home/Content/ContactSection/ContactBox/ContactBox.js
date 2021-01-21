@@ -17,7 +17,7 @@ const ContactBox = (props) => {
   const onSubmit = () => {
     setSending(true);
     axios
-      .post("http://localhost:5000/submit-data", {
+      .post("https://gupta-jatin.herokuapp.com/submit-data", {
         name: inputName,
         email: inputEmail,
         message: inputMessage,
